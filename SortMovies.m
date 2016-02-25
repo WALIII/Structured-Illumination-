@@ -24,7 +24,7 @@ for i=1:length(mov_listing)
    
    
    
-   path01 = '/Users/ARGO/Dropbox/Shared/w: others/Will2AB/Structured Illumination/Beads/TEST/';
+   path01 = '/Users/ARGO/Dropbox/Shared/w: others/Will2AB/Structured Illumination/GFPtifs/';
    path02 = strcat(path01,b,'/');
    fileN = strcat(file,ext);
    mkdir(path02) % make the new DIR
