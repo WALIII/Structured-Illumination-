@@ -32,7 +32,6 @@ v2 = mean(I,3);
 fileN = strcat(file,'.tif');
 v2 = uint8(v2);
 imwrite(v2,fileN);
-    
-	
-end
 
+
+end
